@@ -44,6 +44,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Bairro"
+        app:layout_constraintTop_toBottomOf="@+id/etEndereco"
         tools:layout_editor_absoluteY="111dp"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -54,6 +55,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Cidade"
+        app:layout_constraintTop_toBottomOf="@+id/etBairro"
         tools:layout_editor_absoluteY="164dp"
         tools:layout_editor_absoluteX="-4dp" />
 
@@ -64,6 +66,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="CNH"
+        app:layout_constraintTop_toBottomOf="@+id/etCidade"
         tools:layout_editor_absoluteY="221dp"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -75,6 +78,7 @@
         android:ems="10"
         android:inputType="phone"
         android:text="Telefone"
+        app:layout_constraintTop_toBottomOf="@+id/etCNH"
         tools:layout_editor_absoluteY="264dp"
         tools:layout_editor_absoluteX="-4dp" />
 
@@ -85,6 +89,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="Email"
+        app:layout_constraintTop_toBottomOf="@+id/etTelefone"
         tools:layout_editor_absoluteY="311dp"
         tools:layout_editor_absoluteX="-2dp" />
 
@@ -95,6 +100,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Latitude"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail"
         tools:layout_editor_absoluteY="358dp"
         tools:layout_editor_absoluteX="1dp" />
 
@@ -105,6 +111,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Longitude"
+        app:layout_constraintTop_toBottomOf="@+id/etLatitude"
         tools:layout_editor_absoluteY="404dp"
         tools:layout_editor_absoluteX="1dp" />
 
@@ -113,6 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Salvar"
+        app:layout_constraintTop_toBottomOf="@+id/etLongitude"
         tools:layout_editor_absoluteY="462dp"
         tools:layout_editor_absoluteX="25dp" />
 
@@ -121,6 +129,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Alterar"
+        app:layout_constraintTop_toBottomOf="@+id/etLongitude"
+        android:layout_marginLeft="50dp"
         tools:layout_editor_absoluteY="462dp"
         tools:layout_editor_absoluteX="133dp" />
 
@@ -130,6 +140,8 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="57dp"
         android:text="Deletar"
+        app:layout_constraintTop_toBottomOf="@+id/etLongitude"
+        android:layout_marginLeft="100dp"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteY="462dp" />
 
