@@ -7,7 +7,7 @@
     tools:context="br.edu.iff.pooa20171.exerciciorealm.Activity.DetalheProprietarioActivity">
 
     <EditText
-        android:id="@+id/edNome"
+        android:id="@+id/etNome"
         android:layout_width="374dp"
         android:layout_height="49dp"
         android:layout_marginRight="8dp"
@@ -23,14 +23,14 @@
         tools:layout_editor_absoluteX="3dp" />
 
     <EditText
-        android:id="@+id/edEndereco"
+        android:id="@+id/etEndereco"
         android:layout_width="522dp"
         android:layout_height="60dp"
         android:layout_marginTop="0dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Endereco"
-        app:layout_constraintTop_toBottomOf="@+id/edNome"
+        app:layout_constraintTop_toBottomOf="@+id/etNome"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
@@ -79,7 +79,7 @@
         tools:layout_editor_absoluteX="-4dp" />
 
     <EditText
-        android:id="@+id/edEmail"
+        android:id="@+id/etEmail"
         android:layout_width="388dp"
         android:layout_height="44dp"
         android:ems="10"
@@ -89,7 +89,7 @@
         tools:layout_editor_absoluteX="-2dp" />
 
     <EditText
-        android:id="@+id/edLatitude"
+        android:id="@+id/etLatitude"
         android:layout_width="387dp"
         android:layout_height="43dp"
         android:ems="10"

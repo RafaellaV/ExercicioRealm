@@ -11,9 +11,9 @@ public class BDConfig extends Application {
     public void onCreate() {
         super.onCreate();
 
-        Realm.init(getApplicationContext());
+        //Realm.init(getApplicationContext());
 
-        RealmConfiguration.Builder builder = new RealmConfiguration.Builder();
+        RealmConfiguration.Builder builder = new RealmConfiguration.Builder(this);
         builder.name("exercicioR.realm");
         builder.schemaVersion(0);
         builder.deleteRealmIfMigrationNeeded();
